@@ -1,0 +1,22 @@
+*********************************
+* Version 0.9.5b                *
+* 07.03.2012                    *
+*********************************
+
+Description:
+************
+
+The hotfixed version of JCurses 0.9.5.
+
+Bugfixes:
+*********
+
+#3042758	Fixed a serious memory leak in the JNI Toolkit.
+
+Feature requests:
+*****************
+
+#NONE		Added a 64bit-version of both libraries. User needs to load the right one.
+
+18-August-2018 :
+Added compability code for running in Termux app environment in "src/jcurses/system/Toolkit.java"
